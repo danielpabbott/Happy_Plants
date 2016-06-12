@@ -1,15 +1,17 @@
 .rightnav {
   position: fixed;
-  bottom: 40vh;
+  bottom: 39vh;
   right: 0px;
   z-index: 1;
 }
-.menu {
-  background-color: orange;
+.bar {
+  background-color: hsla(180, 100%, 100%, 1);
   height: 20px;
-  width: 125px;
+  width: 130px;
   margin-top: 20px;
   border-radius: 25px 0px 0px 25px;
+  font-weight: bold;
+  text-align: right;
 }
 .main-background {
   background-image: url('https://static.pexels.com/photos/36063/pexels-photo.jpg');
@@ -17,10 +19,40 @@
   background-position: center;
   height: 100vh;
 }
-.main-content {
-  background-color: hsla(130, 48%, 18%, .75);
+.validation-background {
+  background-image: url('https://static.pexels.com/photos/41123/pexels-photo-41123.jpeg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+.screenshot1-background {
+  background-image: url('https://static.pexels.com/photos/8390/food-wood-tomatoes.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+.screenshot2-background {
+  background-image: url('https://static.pexels.com/photos/70862/pexels-photo-70862.jpeg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+.business-background {
+  background-image: url('https://static.pexels.com/photos/5205/food-healthy-vegetables-potatoes.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+.impact-background {
+  background-image: url('https://static.pexels.com/photos/76306/vegetable-food-theme-cooking-76306.jpeg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+.content {
+  background-color: hsla(0, 0%, 20%, .7);
   height: 88vh;
   width: 94vw;
-  color: white;
   margin-top: 6vh;
+  border-radius: 10px;
 }
